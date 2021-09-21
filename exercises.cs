@@ -128,7 +128,7 @@ class main
                 {
                     // ..array que armazena todos os enunciados
                     string[] form = new string[1]{
-                    "1) Regra de Três (Dica: Normalmente utilizada para cálculo de Tempo)"};
+                    "1) Regra de Três (Simples)"};
 
                     // ..menu dos exercicios
                     Console.Clear();
@@ -147,22 +147,22 @@ class main
                     // ------------------------------------------------------------- Formula 1
                     else if (op[1] == "1")
                     {
-                        int[] res = new int[6];
+                        int[] res = new int[4];
                         Console.Clear();
                         Console.WriteLine(form[0] + "\n");
-                        Console.Write("Dica: Normalmente a primeira unidade é a de menor valor.");
                         Console.Write("Primeira unidade base (ex: m²): ");
                         res[0] = int.Parse(Console.ReadLine());
-                        Console.Write("Segunda unidade base (ex: uni): ");
-                        res[1] = int.Parse(Console.ReadLine());
                         Console.Write("Unidade base, com mesmo tipo da prevista: ");
-                        res[2] = int.Parse(Console.ReadLine());
+                        res[1] = int.Parse(Console.ReadLine());
                         Console.Write("Primeira unidade prevista (ex: m²): ");
-                        res[3] = int.Parse(Console.ReadLine());
-                        Console.Write("Segunda unidade prevista (ex: uni): ");
-                        res[4] = int.Parse(Console.ReadLine());
-                        res[5] = (int)(((res[0] * res[4]) * res[2]) / (res[1] * res[3]));
-                        Console.WriteLine("\nResultado: " + res[5] + ".\n");
+                        res[2] = int.Parse(Console.ReadLine());
+                        Console.WriteLine("É inversamente proporcional (Enquanto um sobe, o outro desce) se sim digite [s]?");
+                        op[1] = Console.ReadLine();
+                        if(op[1]=="s" || op[1]=="S")
+                            res[3] = (int)((res[0]*res[1])/res[2]); // ..multipla reto
+                        else
+                            res[3] = (int)((res[1]*res[2])/res[0]); // ..multipla cruzado
+                        Console.WriteLine("\nResultado: " + res[3] + ".\n");
                     }
                     // ------------------------------------------------------------- Confirmação de saída ou retorno ao topo das fórmulas
                     Console.WriteLine("\nPara retornar ao menu de formulas digite [S]:");
