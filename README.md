@@ -5,10 +5,10 @@
 
 <!-- Shield -->
 <p>
-	<img src="https://img.shields.io/badge/Made%20with-CSharp-239120?style=for-the-badge&logo=c-sharp&logoColor=239120" title="Feito com React Native" alt="made-with-react-native"></img>
-    <img src="https://img.shields.io/badge/Used-Terminal-000000?style=for-the-badge&logo=windows-terminal&logoColor=white" title="Utilizado o Firebase" alt="used-firebase"></img>
+	<img src="https://img.shields.io/badge/Made%20with-CSharp-239120?style=for-the-badge&logo=c-sharp&logoColor=239120" title="Feito com CSharp" alt="made-with-csharp"></img>
+    <img src="https://img.shields.io/badge/Used-Terminal-000000?style=for-the-badge&logo=windows-terminal&logoColor=white" title="Utilizado o Terminal" alt="used-terminal"></img>
 	<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" title="Licença MIT" alt="license-MIT"></img>
-    <img src="https://img.shields.io/badge/Status-Working-F08705?style=for-the-badge" title="Status do Projeto:Concluído" alt="project-status-done"></img>
+    <img src="https://img.shields.io/badge/Status-Working-F08705?style=for-the-badge" title="Status do Projeto: Trabalhando" alt="project-status-working"></img>
 </p>
 
 <!-- Tecnologias -->
