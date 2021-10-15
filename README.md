@@ -1,6 +1,5 @@
 <!-- Título&Descrição -->
 <h1 align="center" id="title">Exercícios em C#</h1>
-<h2 align="left" id="screenshots">Descrição</h2>
 <p align="justify">Esta é uma aplicação executável bem simples, desenvolvida com fins de estudo e aprendizado em C#, realiza a apresentação dos enunciados sendo possível a escolha de algum e a resolução do problema proposto. Também toda a aplicação é circundada com o "do-while", possibilitando assim o retorno ao menu principal após a resolução do exercício escolhido préviamente.</p>
 
 <!-- Shield -->
@@ -11,6 +10,14 @@
     <img src="https://img.shields.io/badge/Status-Working-F08705?style=for-the-badge" title="Status do Projeto: Trabalhando" alt="project-status-working"></img>
 </p>
 
+
+<!-- Features -->
+<h2 align="left" id="features">Funcionalidades</h2>
+
+- [x] Visualização dos enunciados;
+- [x] Exercícios adversos;
+
+
 <!-- Tecnologias -->
 <h2 align="left" id="tecnologias">Tecnologias</h2>
 
@@ -19,11 +26,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSharp](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
 
-<!-- Features -->
-<h2 align="left" id="features">Features</h2>
-
-- [x] Visualização dos enunciados;
-- [x] Exercícios adversos;
 
 <!-- Pré-Requisitos -->
 <h2 align="left" id="pre">Pré-Requisitos</h2>
